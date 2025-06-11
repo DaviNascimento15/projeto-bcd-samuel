@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 3vb;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    background: url('https://images6.alphacoders.com/104/1042812.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.fundo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(20, 20, 20, 0.7); /* camada escura sobre a imagem */
+}
+
+.caixa-formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(33, 37, 41, 0.95); /* fundo escuro militar */
+    width: 60vw;
+    height: 76vh;
+    border-radius: 2vb;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    padding: 2vh;
+    color: #fff;
+    border: 2px solid #5a4425; /* borda cor couro uniforme */
+}
+
+.area-formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+    height: 100%;
+}
+
+.area-formulario label {
+    margin-bottom: 1vh;
+    font-weight: bold;
+    color: #ddd;
+}
+
+.area-formulario input {
+    margin-bottom: 2vh;
+    height: 6vh;
+    border-radius: 0.8vb;
+    border: none;
+    padding: 0 1vb;
+    background-color: #444;
+    color: #f0f0f0;
+    font-size: 2.5vb;
+}
+
+.area-formulario input:focus {
+    outline: none;
+    border: 2px solid #7a5933;
+    background-color: #555;
+}
+
+#login {
+    background-color: #7a5933; /* tom couro dos uniformes */
+   
+}
